@@ -1,0 +1,16 @@
+promise: it is an object that represents eventual completion or failure of an async operation.
+
+promise can be consume or create.
+const promiseOne = new Promise(function(resolve,reject){
+    Do an async task
+    DB calls,cryptography , network
+
+}).
+
+.then():- .then() is depends on reslove(paremeter if any) and .catch() is connected to reject()
+resolve's paremeter'll pass to .then(e) (as given diff. name as variable)
+
+-> consumption of above promise:
+promiseOne.then(function(){
+    
+})
